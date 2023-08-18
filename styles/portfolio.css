@@ -42,7 +42,7 @@ main #home .mouse img {animation:mouse_move 1s linear alternate infinite;}
     100% {transform:translateY(-30px);}
 }
 /* skill */
-main #skill {background:#EFEFEE; padding-top:100px;}
+main #skill {/* background:#EFEFEE; */ padding-top:100px;}
 main #skill h1 {
     font-size:3.75rem; font-weight:700;
     padding:76px 0 23px;
@@ -127,6 +127,7 @@ main #project_web1 .link a:hover {
 }
 main #project_web1 .project_info {
     margin:40px 0; 
+    display: flex; justify-content: center;
 }
 main #project_web1 .project_info p {
     font-size:1.563rem; line-height: 34px;
