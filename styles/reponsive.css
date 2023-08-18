@@ -1,0 +1,4 @@
+@media screen and (max-width:1500px){
+    main #skill .container {height:900px;}
+    main #skill .container li {width:47%;}
+}/* 1500 end */
